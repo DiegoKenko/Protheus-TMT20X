@@ -1,0 +1,26 @@
+1- Código fonte
+     o código é escrito em python.
+     O programa deverá receber parâmetros com as informações que serão impressas, como descrito no mesmo.
+     para criar o executavel : cxfreeze -c print.py --target-dir dist
+     
+3 - Arquivos locais
+
+     é necessário conter uma pasta chamada 'ticketRestaurante' na raiz 'c:' do computador.Nela, conterá todo o programa do ticketRestaurante.
+     Deverá ser feito manualmente, após a geração do executavel, gerará uma pasta chamada 'dist'.É essa pasta que contém os arquivos, então, basta move-la
+     para o local definido, e renomea-la para 'ticketRestaurante' 
+
+2 - Instalação da impressora
+
+     após instalar a impressora TMT20X é necessário substitui o driver da seguite forma:
+          mover a dll 'libusb-1.0.dll' para as pastas system32 e syswow64
+          utilizar o 'zadig' para Substituir o driver. Substituir para winusb.E então, é só aguardar.
+
+links úteis:
+
+"https://devicehunt.com/view/type/usb/vendor/04B8/device/0E03"
+"https://devicehunt.com/search/type/usb/vendor/04B8/device/any"
+"https://libusb.info/"
+"https://zadig.akeo.ie/"
+"https://ftp.epson.com/latin/drivers/pos/TM-T20XUtility100.exe"
+"https://stackoverflow.com/questions/63388422/python-not-implemented-exception-in-python-escpos-pyusb-libusb-on-chinese-ther"
+"https://python-escpos.readthedocs.io/en/latest/user/methods.html"
